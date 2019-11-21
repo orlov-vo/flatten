@@ -1,0 +1,22 @@
+{
+  "name": "flatten",
+  "version": "1.0.0",
+  "description": "Simple version of Array.flat",
+  "main": "dist/index.js",
+  "repository": "https://github.com/orlov-vo/flatten",
+  "author": "Vladislav Orlov <me@orlov-vo.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
